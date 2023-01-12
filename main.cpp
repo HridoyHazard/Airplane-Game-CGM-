@@ -939,7 +939,6 @@ int main(int argc, char** argv)
 	glutMouseFunc(mouse);
 	glutKeyboardFunc(keyPressed);
 	glutSpecialFunc(spe_key);
-	sndPlaySound("song.wav", SND_ASYNC);
 	glutMainLoop();
 	return 0;
 }
